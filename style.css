@@ -1,0 +1,80 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #e4e2dd;
+    width: 100%; 
+    margin: 0;
+  }
+
+  .logo img {
+    max-width: 100px;
+    height: auto;
+  }
+
+  .search-box {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 12px;
+    border: 1px solid #292929;
+    padding: 5px;
+    margin: 5px;
+  }
+
+  .search-box input[type="text"] {
+    border: none;
+    padding: 5px;
+  }
+
+  .search-button {
+    border: none;
+    background-color: #e4e2dd;
+    color: #333;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+
+  .login-button {
+    border: 1px solid #292929;
+    background-color: #e4e2dd;
+    color: #292929;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .cart-button {
+    font-size: 24px;
+    color: #292929;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  footer {
+    background-color: #e4e2dd;
+  }
+
+  a {
+    text-decoration: none;
+    color: #292929;
+  }
+
+  body {
+    background-image: linear-gradient(to top, #e4e4e4, beige);
+  }
+
+  *{
+    font-family: Dream Avenue;
+  }
